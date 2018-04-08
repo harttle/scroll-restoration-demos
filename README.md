@@ -1,4 +1,4 @@
-## history.scrollRestoration
+## history.scrollRestoration ALSO affets external links
 
 Typically, you want set `history.scrollRestoration` to `manual` to allow custom transitions.
 
