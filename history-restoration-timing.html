@@ -101,8 +101,11 @@ window.addEventListener('popstate', function () {
   page1.style.display = 'block'
   page2.style.display = 'none'
   requestAnimationFrame(function() {
-    msg += '1 event-loop after popstate: ' + window.scrollY
-    message.innerHTML = msg
+    msg += '1 frame after popstate: ' + window.scrollY + '<br/>'
+    setTimeout(function () {
+      msg += '500ms after popstate: ' + window.scrollY
+      message.innerHTML = msg
+    }, 500)
   })
 })
   </script>
