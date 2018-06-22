@@ -1,0 +1,23 @@
+{
+  "name": "scroll-restoration-demos",
+  "version": "1.0.0",
+  "description": "Typically, you want set `history.scrollRestoration` to `manual` to allow custom transitions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harttle/scroll-restoration-demos.git"
+  },
+  "author": "harttle <yangjvn@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harttle/scroll-restoration-demos/issues"
+  },
+  "homepage": "https://github.com/harttle/scroll-restoration-demos#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

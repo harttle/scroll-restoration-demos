@@ -41,4 +41,12 @@ they WON'T change anymore once assigned. Take care!
 
 * Tutorial: https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll
 
+## scroll event not fired on UIWebview
+
+Typically `scroll` event will be fired on scroll restoration. 
+Whereas for iOS UIWebview-based browsers no `scroll` event will be fired.
+Try UC browser, Baidubox browser.
+
+* Demo: http://harttle.github.io/scroll-restoration-demos/scroll-event.html
+
 [requestAnimationFrame]: https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
